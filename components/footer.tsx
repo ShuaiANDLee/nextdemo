@@ -5,9 +5,10 @@
 //   }
 import { forwardRef } from "react";
 
-const footer = forwardRef((pros: any, ref: any) => {
+const Footer = forwardRef((pros: any, ref: any) => {
     return <div id="footer" ref={ref}>
         next demo
     </div>
 })
-export default footer;
+Footer.displayName = 'Footer';
+export default Footer;

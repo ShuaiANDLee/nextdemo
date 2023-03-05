@@ -4,7 +4,7 @@ import Main from "./normal-main";
 import { createRef, useState } from "react"
 
 
-export default function normal(props: any) {
+export default function Normal(props: any) {
   let [headerHeight, setHeaderHeight] = useState(0);
   let [footerHeight, setFooterHeight] = useState(0);
 

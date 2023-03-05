@@ -125,7 +125,8 @@ a {
 
 #main{
   color: black;
-  margin: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .post-content{

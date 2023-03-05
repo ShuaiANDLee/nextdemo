@@ -1,6 +1,8 @@
-
+import Pagenormal from "./../components/normal-page"
 export default function Home() {
-    return <main>
+  return <Pagenormal>
+    <main>
       404
-    </main>;
-  }
+    </main>
+  </Pagenormal>
+}
